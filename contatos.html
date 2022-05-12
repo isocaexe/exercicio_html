@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <img src="logo.png" alt="logo senac">
+    <h1>Fale Conosco</h1>
+  <form name="Cadastro" method="post" action="sucesso.html">
+    <label for="txtNome">Nome</label><br>
+    <input type="text" name="txtNome" id="txtNome" placeholder="Digite seu nome" title="Digite seu nome"
+    maxlength="9" minlength="3" value=""required> <br>
+    <label for="email">E-mail</label><br>
+    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" title="Digite seu e-mail"
+    maxlength="9" minlength="3" value=""required> <br>
+    <label for="phone">Telefone</label><br>
+    <input type="tel" id="phone" title="Digite seu telefone" placeholder="Digite seu telefone" title="digite seu número de celular" required><br>
+    <label for="assunto">Assunto</label><br>
+    <select id="Assunto" required><br>
+        <option value="Dúvidas">Dúvidas</option>
+        <option value="Elogios">Elogios</option>
+        <option value="Reclamações">Reclamações</option>
+        <option value="Sugestões">Sugestões</option>
+        <option value="Solicitações">Solicitações</option>
+        <option value="Outros">Outros</option>
+    </select>
+    <br>
+    <label for="Mensagem">Mensagem</label><br>
+    <textarea id="Mensagem" rows="10" placeholder="Mande uma mensagem para nós!" required></textarea><br>
+    <input type="checkbox" id="check">
+    <label for="check">Enviar uma cópia para você</label><br>
+    <input type="submit" name="Enviar"><br>
+    </form>
+</body>
+</html>
