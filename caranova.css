@@ -1,0 +1,13 @@
+body {background-color: background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)}
+h1 {color: blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+input{color: midnightblue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+label {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: indigo;}
+ul {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;}
+p {font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+ol{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black; font-size: 20px;}
+h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: deeppink; font-size: 30px;}
+tr {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black; font-size: 20px;}
+td{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;}
+h4 {font-size: 30px; color: blueviolet; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
